@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Galeria zdjęć natury</title>
+        <link rel="stylesheet" href="galeria.css" />
+     
+    </head>
+    <body>
+        <h1>Galeria zdjęć natury</h1>
+        <ul class="gallery">
+            <li class="thumbnail">
+                <img tabindex="0" src="zdj1.jpeg"/>
+            </li>
+            <li class="thumbnail">
+                <img tabindex="0" src="zdj2.jpg"/>
+            </li>
+            <li class="thumbnail">
+                <img tabindex="0" src="zdj3.jpg"/>
+            </li>
+            <li class="thumbnail">
+                <img tabindex="0" src="zdj4.jpeg"/>
+            </li>
+            <li class="thumbnail">
+                <img tabindex="0" src="zdj5.jpg"/>
+            </li>
+            <li class="thumbnail">
+                <img tabindex="0" src="zdj6.jpg"/>
+            </li>
+        </ul>
+        <div class="popup hidden">
+            <button aria-label="Zamknij popup" class="popup__close">X</button>
+            <img src="" alt="" class="popup__img" />
+            <button
+                aria-label="Poprzednie zdjęcie"
+                class="popup__arrow popup__arrow--left"
+            >
+                <
+            </button>
+            <button
+                aria-label="Następne zdjęcie"
+                class="popup__arrow popup__arrow--right"
+            >
+                >
+            </button>
+        </div>
+        <script src="galeria.js"></script>
+    </body>
+</html>
